@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         // on below line we are initializing our all variables.
         var proximitySensorEventListener : SensorEventListener? = object : SensorEventListener{
             override fun onAccuracyChanged(sensor: Sensor, Accuracy: Int) {
-                
+
             }
 
             override fun onSensorChanged(event: SensorEvent) {
